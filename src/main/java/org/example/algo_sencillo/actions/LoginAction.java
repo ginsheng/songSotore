@@ -12,7 +12,7 @@ import org.apache.struts2.convention.annotation.Result;
 public class LoginAction {
 
     public String execute() throws Exception {
-        if("pankaj".equals(getName()) && "admin".equals(getPwd()))
+        if("admin".equals(getName()) && "1234".equals(getPwd()))
             return "SUCCESS";
         else return "ERROR";
     }
