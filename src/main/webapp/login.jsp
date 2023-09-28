@@ -1,19 +1,27 @@
-<%@ page language="java" contentType="text/html; charset=US-ASCII"
-    pageEncoding="US-ASCII"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "https://www.w3.org/TR/html4/loose.dtd">
-<%-- Using Struts2 Tags in JSP --%>
+<! DOCTYPE html>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib uri="/struts-tags" prefix="s"%>
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
-<title>Login Page</title>
-</head>
-<body>
-<h3>Welcome User, please login below</h3>
-<s:form action="login">
-	<s:textfield name="name" label="User Name"></s:textfield>
-	<s:textfield name="pwd" label="Password" type="password"></s:textfield>
-	<s:submit value="Login"></s:submit>
-</s:form>
-</body>
+    <head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Song Store (login)</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container text-center mt-5 p-5 form-fdx">
+            <h3>Bienvenido, por favor inicie sesión</h3>
+            <s:form action="login">
+              <div class="mb-3">
+                <label for="inputUserName" class="form-label">Usuario</label>
+                <input type="text" name="userName" class="form-control" id="inputUserName">
+              </div>
+              <div class="mb-3">
+                <label for="inputPassword" class="form-label">Contraseña</label>
+                <input type="password" name="pwd" class="form-control" id="inputPassword">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </s:form>
+        </div>
+    </body>
 </html>

@@ -1,4 +1,5 @@
-org/example/algo_sencillo/actions/HomeAction.class
 org/example/algo_sencillo/resources/JakartaEE10Resource.class
 org/example/algo_sencillo/actions/LoginAction.class
 org/example/algo_sencillo/JakartaRestConfiguration.class
+org/example/algo_sencillo/actions/SongAction.class
+org/example/algo_sencillo/actions/HomeAction.class
