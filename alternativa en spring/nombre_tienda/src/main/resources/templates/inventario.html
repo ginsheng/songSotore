@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Actualización de datos</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Song Store</title>
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body>
+<div th:insert="~{../static/fragments/header :: navbar}">header</div>
+<div class="container text-center mt-5 p-5 form-fdx">
+    <h5 th:if="${resultado} != null" th:text="${resultado}"></h5>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Título</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Acciones</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:if="${songList == null || songList.empty}">
+            <td colspan="4">Aún no hay canciones</td>
+        </tr>
+        <tr th:each="song : ${songList}">
+            <td><span th:text="${song.id}"> ID </span></td>
+            <td><span th:text="${song.songTitle}"> Título </span></td>
+            <td><span th:text="${song.songAmount}"> Cantidad </span></td>
+            <td><a th:href="@{/song/eliminar?id=} + ${song.id}"> Eliminar </a></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

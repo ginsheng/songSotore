@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html lang="es" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Actualización de datos</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Song Store</title>
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="/css/style.css" rel="stylesheet">
+    <link href="/static/css/style.css" rel="stylesheet">
+</head>
+<body>
+<div th:fragment="navbar">
+    <nav class="navbar navbar-expand-lg" style="background-color: #e6ffef;">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" th:href="inventario">Inventario</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="nueva">Nueva canci&oacute;n</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" th:href="logout">Salir</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+</body>
