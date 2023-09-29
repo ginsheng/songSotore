@@ -12,7 +12,7 @@
                 <s:a class="nav-link" href="newSong.action">Nueva canci&oacute;n</s:a>
             </li>
             <!-- <li class="nav-item">
-                <a class="nav-link" href="#">Eliminar canci&oacute;n</s:a>
+                <s:a class="nav-link" href="#">Eliminar canci&oacute;n</s:a>
             </li> -->
             <li class="nav-item">
                 <s:a class="nav-link" href="logout.action">Salir</s:a>

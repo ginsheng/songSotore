@@ -27,10 +27,10 @@ public class BackEndController {
          */
 
 //        if (null == id || !id.equals(UUID.fromString("96fe8e23-2d6c-4778-ac22-e985b6192dfe"))) {
-            return ResponseEntity.noContent().build();
+//            return ResponseEntity.noContent().build();
 //        }
 
-//        return apiService.enlista();
+        return apiService.enlista();
 
     }
 
