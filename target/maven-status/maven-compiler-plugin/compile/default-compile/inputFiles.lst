@@ -1,5 +1,10 @@
-/Users/gerardoascencio/Desktop/algo_sencillo/src/main/java/org/example/algo_sencillo/resources/JakartaEE10Resource.java
-/Users/gerardoascencio/Desktop/algo_sencillo/src/main/java/org/example/algo_sencillo/actions/HomeAction.java
-/Users/gerardoascencio/Desktop/algo_sencillo/src/main/java/org/example/algo_sencillo/actions/SongAction.java
-/Users/gerardoascencio/Desktop/algo_sencillo/src/main/java/org/example/algo_sencillo/actions/LoginAction.java
-/Users/gerardoascencio/Desktop/algo_sencillo/src/main/java/org/example/algo_sencillo/JakartaRestConfiguration.java
+/home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/JakartaRestConfiguration.java
+/home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/resources/JakartaEE10Resource.java
+/home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/data/SongBean.java
+/home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/data/SongsDAO.java
+/home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/actions/HomeAction.java
+/home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/actions/InventoryAction.java
+/home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/actions/NewSongAction.java
+/home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/actions/SongAction.java
+/home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/actions/LoginAction.java
+/home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/data/DBControl.java
