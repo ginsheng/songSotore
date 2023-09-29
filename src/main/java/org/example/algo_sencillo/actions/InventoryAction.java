@@ -28,8 +28,6 @@ public class InventoryAction {
 
         songList = songsDAO.selectAll();
 
-        System.out.println(songList.size());
-
         return "SUCCESS";
 
     }

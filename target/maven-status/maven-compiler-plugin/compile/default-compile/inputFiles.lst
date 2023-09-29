@@ -3,8 +3,10 @@
 /home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/data/SongBean.java
 /home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/data/SongsDAO.java
 /home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/actions/HomeAction.java
+/home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/spring/SpringApplicationConfiguration.java
 /home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/actions/InventoryAction.java
 /home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/actions/NewSongAction.java
 /home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/actions/SongAction.java
+/home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/rest/controllers/SongController.java
 /home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/actions/LoginAction.java
 /home/gascencio/Descargas/songStore/src/main/java/org/example/algo_sencillo/data/DBControl.java
